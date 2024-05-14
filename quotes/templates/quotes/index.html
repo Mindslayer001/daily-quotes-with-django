@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .quotation {
+            text-align: center;
+            position: relative;
+        }
+        .author {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="quotation">
+        <h1>Random Quotation</h1>
+        <p>"{{ content }}"</p>
+        <br>
+        <p class="author"> ~{{ author }}</p>
+    </div>
+</body>
+</html>
