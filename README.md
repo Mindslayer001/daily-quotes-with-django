@@ -1,0 +1,1 @@
+API = https://api.quotable.io/quotes/random
